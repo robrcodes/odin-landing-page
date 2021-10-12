@@ -1,3 +1,18 @@
+/* CSS Variables  */
+
+:root {
+    /* Colors */
+    --hero-foot: #1f2937;
+    --main-text: #f9faf8;
+    --sec-text: #e5e7eb;
+    --call-ta: #3882f6;
+    --info-head: #1f2937;
+    --test-bg: #e5e7eb;
+    --test-text: #1f2937;
+
+}
+
+
 /* Border Box Reset */
 
 html {
@@ -7,6 +22,9 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+
+
 
 /* Mobile first styles ------------------------- */
 
