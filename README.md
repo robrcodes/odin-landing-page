@@ -1,2 +1,2 @@
 # odin-landing-page
-Landing page project from foundations section of The Odin Project
+Landing page [assignment](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page#assignment) from foundations section of The Odin Project

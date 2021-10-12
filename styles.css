@@ -1,0 +1,25 @@
+/* Border Box Reset */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Mobile first styles ------------------------- */
+
+
+
+/* end Mobile first styles --------------------- */
+
+
+@media (min-width: 990px) {
+
+
+}
+
+
+
+
