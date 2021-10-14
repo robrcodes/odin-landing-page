@@ -29,6 +29,82 @@ html {
 /* Mobile first styles ------------------------- */
 
 
+body {
+    background-color: var(--hero-foot);
+}
+
+.wrapper {
+    width: 1025px;
+    margin: 0 auto;
+    border: red dotted 1px;
+}
+
+.logo-link {
+
+}
+
+.main-nav {
+
+}
+
+
+.hero {
+
+}
+
+.hero-words {
+
+}
+
+.hero-image {
+    width: 520px;
+    height: 235px;
+    object-fit: none;
+    object-position: -20px -55px;
+
+}
+
+
+
+.information {
+    background-color: var(--main-text);
+}
+
+
+.info-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 820px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.box-individual {
+    width: 170px;
+    height: 250px;
+
+}
+
+.box-image {
+    width: 168px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 10%;
+    border: var(--call-ta) 4px solid;
+}
+
+
+
+
+.testimonial {
+    background-color: var(--test-bg);
+}
+
+.call-to-action {
+    background-color: var(--main-text);
+}
+
 
 /* end Mobile first styles --------------------- */
 
