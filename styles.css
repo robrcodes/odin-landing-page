@@ -2,13 +2,12 @@
 
 :root {
     /* Colors */
-    --hero-foot: #1f2937;
-    --main-text: #f9faf8;
-    --sec-text: #e5e7eb;
-    --call-ta: #3882f6;
-    --info-head: #1f2937;
-    --test-bg: #e5e7eb;
-    --test-text: #1f2937;
+    
+    --dark: #1f2937;
+    --mid-light: #e5e7eb;
+    --lightest: #f9faf8;
+    --accent: #3882f6;
+
 
 }
 
@@ -30,11 +29,10 @@ html {
 
 
 body {
-    background-color: var(--hero-foot);
+    background-color: var(--dark);
 }
 
 .wrapper {
-    width: 1025px;
     margin: 0 auto;
     border: red dotted 1px;
 }
@@ -49,32 +47,49 @@ body {
 
 
 .hero {
+    
+}
+
+h1 {
+    color: var(--lightest);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
 
 }
 
 .hero-words {
+    
 
+}
+
+.hero-words p {
+    color: var(--mid-light);
 }
 
 .hero-image {
-    width: 520px;
-    height: 235px;
-    object-fit: none;
-    object-position: -20px -55px;
+    width: 80%;
+    object-fit: cover;
+    object-position: -9% -10%;
+    margin: 20px auto;
+    display: block;
 
 }
-
 
 
 .information {
-    background-color: var(--main-text);
+    background-color: var(--lightest);
 }
 
+h2 {
+    text-align: center;
+}
 
 .info-boxes {
     display: flex;
     justify-content: space-between;
-    width: 820px;
+    flex-wrap: wrap;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     
@@ -91,18 +106,18 @@ body {
     height: 168px;
     object-fit: cover;
     border-radius: 10%;
-    border: var(--call-ta) 4px solid;
+    border: var(--accent) 4px solid;
 }
 
 
 
 
 .testimonial {
-    background-color: var(--test-bg);
+    background-color: var(--mid-light);
 }
 
 .call-to-action {
-    background-color: var(--main-text);
+    background-color: var(--lightest);
 }
 
 
@@ -110,6 +125,28 @@ body {
 
 
 @media (min-width: 990px) {
+
+
+    .wrapper {
+        width: 1025px;
+    }
+
+
+    .hero-image {
+        width: 520px; 
+        height: 235px;
+        object-fit: none;
+        object-position: -20px -55px; 
+        display: inline;
+    
+    }
+
+   
+
+    .info-boxes {
+        width: 820px;        
+    }
+
 
 
 }
