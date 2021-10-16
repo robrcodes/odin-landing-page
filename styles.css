@@ -23,16 +23,18 @@ html {
 }
 
 
+body {
+    background-color: var(--dark);
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 /* Mobile first styles ------------------------- */
 
 
-body {
-    background-color: var(--dark);
-}
 
 .wrapper {
+    width: 90%;
     margin: 0 auto;
     border: red dotted 1px;
 }
@@ -52,23 +54,24 @@ body {
 
 h1 {
     color: var(--lightest);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 48px;
+    font-size: 36px;
     font-weight: bold;
+    text-align: center;
 
 }
 
 .hero-words {
     
-
 }
 
 .hero-words p {
     color: var(--mid-light);
+    text-align: justify;
+    font-size: 18px;
 }
 
 .hero-image {
-    width: 80%;
+    width: 90%;
     object-fit: cover;
     object-position: -9% -10%;
     margin: 20px auto;
@@ -89,31 +92,41 @@ h2 {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     
 }
 
 .box-individual {
-    width: 170px;
-    height: 250px;
 
 }
 
 .box-image {
-    width: 168px;
-    height: 168px;
+    width: 100%;
     object-fit: cover;
     border-radius: 10%;
     border: var(--accent) 4px solid;
 }
 
 
+figure {
+    /* margin: 0; */
+}
 
+blockquote {
+    margin: 10px;
+    text-align: justify;
+}
 
 .testimonial {
     background-color: var(--mid-light);
+    color: var(--dark);
+    font-size: 18px;
+}
+
+figcaption {
+    text-align: right;
 }
 
 .call-to-action {
@@ -132,6 +145,15 @@ h2 {
     }
 
 
+    h1 {
+        text-align: left;
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
     .hero-image {
         width: 520px; 
         height: 235px;
@@ -141,13 +163,41 @@ h2 {
     
     }
 
-   
+    .box-individual {
+        width: 170px;
+        height: 250px;
+    
+    }
+    
+    .box-image {
+        width: 168px;
+        height: 168px;
+    }
 
     .info-boxes {
         width: 820px;        
     }
 
+    figure {
+        
+    }
 
+    blockquote {
+        
+        font-size: 36px;
+        font-weight: 100;
+        font-style: italic;
+        margin: 40px 40px 0px 40px;
+        text-align: left;
+    }
+
+    figcaption cite {
+        margin-right: 15%;
+        font-size: 28px;
+        font-weight: bold;
+        font-style: normal;
+
+    }
 
 }
 
