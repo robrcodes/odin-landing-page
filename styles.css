@@ -7,6 +7,8 @@
     --mid-light: #e5e7eb;
     --lightest: #f9faf8;
     --accent: #3882f6;
+    --footlink: #45679e;
+
 
 
 }
@@ -24,8 +26,15 @@ html {
 
 
 body {
+    margin: 0px;            
+    padding: 0px; 
+    overflow-x: hidden; 
     background-color: var(--dark);
     font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    padding: 1px 0px;
 }
 
 
@@ -36,16 +45,9 @@ body {
 .wrapper {
     width: 90%;
     margin: 0 auto;
-    border: red dotted 1px;
+    /* border: red dotted 1px; */
+    padding: 1px 1px; /* handle overflow - collapsing margins */
 }
-
-/* .logo-link {
-    font-size: 24px;
-    color: var(--lightest);
-    text-decoration: none;
-    font-weight: bold;
-
-} */
 
 .logo-link img {
     width: 300px;
@@ -57,9 +59,6 @@ header .wrapper {
     flex-wrap: wrap;
 }
 
-nav {
-    /* margin: 10px 0; */
-}
 
 nav .main-nav {
     display: flex;
@@ -82,10 +81,6 @@ nav .main-nav li a {
 }
 
 
-.hero {
-    
-}
-
 h1 {
     color: var(--lightest);
     font-size: 36px;
@@ -94,9 +89,7 @@ h1 {
 
 }
 
-.hero-words {
-    
-}
+
 
 .hero-words p {
     color: var(--mid-light);
@@ -113,6 +106,26 @@ h1 {
 
 }
 
+.signup-btn {
+    text-align: center; /* center sign up button link */
+}
+
+.cta-btn {
+    text-align: center;  /* center sign up button link */
+}
+
+.btn   /* link button */
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--accent);
+    border: var(--lightest) 2px solid;
+    border-radius: 6px;
+    display: inline-block;    
+    padding: 2px 24px 2px 24px;
+    margin: 20px auto;
+}
 
 .information {
     background-color: var(--lightest);
@@ -131,17 +144,8 @@ h2 {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    
 }
 
-.box-individual {
- 
-    
-}
-
-.box-image {
-  
-}
 
 .box-image {
     width: 100%;
@@ -190,20 +194,33 @@ figcaption cite {
     padding-bottom: 10px;
     margin-top: 40px;
     margin-bottom: 40px;
-
-
 }
 
-.signup
-{
-    font-size: 20px;
+.cta-words p {
+    padding: 0px 20px;
+    text-align: center;
+}
+
+footer {
+    font-size: 18px;
+    height: 100px;
+    text-align: center;
+}
+
+footer .wrapper {
+    padding-top: 30px;
+}
+
+footer a {
     text-decoration: none;
-    color: #fff;
-    background-color: var(--accent);
-    border: var(--lightest) 1px solid;
-    display: inline-block;    
-    padding: 9px 21px 9px 20px;
+    color: var(--footlink);
+    display: block;
 }
+
+.foot-credit {
+    color: var(--mid-light);
+}    
+
 
 /* end Mobile first styles --------------------- */
 
@@ -230,8 +247,7 @@ figcaption cite {
         height: 235px;
         object-fit: none;
         object-position: -20px -55px; 
-        display: inline;
-    
+        display: inline;    
     }
 
 
