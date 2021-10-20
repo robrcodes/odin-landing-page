@@ -3,4 +3,4 @@ Landing page [assignment](https://www.theodinproject.com/paths/foundations/cours
 
 Live [Preview](https://rrenwick.github.io/odin-landing-page/)
 
-I have modified the original specification only slightly, adding images to give it a slight theme of 'car meet-up' club page.
+I have modified the original specification only slightly, adding images to give it a theme of 'car meet-up' club page.
