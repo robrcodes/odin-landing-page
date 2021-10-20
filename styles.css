@@ -106,6 +106,23 @@ h1 {
 
 }
 
+
+.btn   /* link button */
+{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--accent);
+    border-radius: 6px;
+    display: inline-block;    
+    padding: 2px 24px 2px 24px;
+    margin: 20px auto;
+}
+
+.btn-border {
+    border: var(--lightest) 2px solid;
+}
+
 .signup-btn {
     text-align: center; /* center sign up button link */
 }
@@ -114,18 +131,7 @@ h1 {
     text-align: center;  /* center sign up button link */
 }
 
-.btn   /* link button */
-{
-    font-size: 18px;
-    text-decoration: none;
-    color: #fff;
-    background-color: var(--accent);
-    border: var(--lightest) 2px solid;
-    border-radius: 6px;
-    display: inline-block;    
-    padding: 2px 24px 2px 24px;
-    margin: 20px auto;
-}
+
 
 .information {
     background-color: var(--lightest);
@@ -236,10 +242,37 @@ footer a {
     h1 {
         text-align: left;
         font-size: 48px;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 
     h2 {
         font-size: 36px;
+    }
+
+    .hero {
+        margin-top: 30px;
+    }
+
+    .hero .wrapper {
+        display: flex;
+        margin-bottom: 100px;
+    }
+
+    .hero-words {
+        width: 450px; 
+        height: 235px;
+    }
+
+    .hero-words p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-right: 40px;
+
+    }
+
+    .signup-btn {
+        text-align: left; /* center sign up button link */
     }
 
     .hero-image {
@@ -249,6 +282,7 @@ footer a {
         object-position: -20px -55px; 
         display: inline;    
     }
+
 
 
     .information {
@@ -298,6 +332,11 @@ footer a {
         margin-bottom: 40px;
     
     
+    }
+
+    .cta-btn {
+        text-align: right; 
+        border: var(--lightest) 2px solid;
     }
 
 }
